@@ -6,7 +6,7 @@ pipeline{
             steps{
                 hello("Gagan")
                 script{
-                    echo "functions.add(5,4)"
+                    functions.add(5,4)
                     
                 }
             }
