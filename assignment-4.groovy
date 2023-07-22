@@ -7,7 +7,6 @@ pipeline{
                 hello("Gagan")
                 script{
                     functions.add(5,4)
-                    
                 }
             }
         }
