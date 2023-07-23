@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage("Install Apache2") {
             steps {
-                sh 'sudo apt update' // Run apt update before installing Apache2
+                sh 'sudo apt update' 
                 sh 'sudo apt install apache2 -y'
             }
         }
